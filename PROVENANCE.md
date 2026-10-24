@@ -19,6 +19,22 @@ services that support generation. This is provenance/redistribution evidence,
 not a representation that every AI-generated image necessarily attracts
 copyright protection in every jurisdiction.
 
+Checked against the Google Terms of Service (effective 30 July 2026), which
+govern the Gemini Apps together with the Generative AI Prohibited Use Policy:
+
+- "Some of our services allow you to generate original content. Google won't
+  claim ownership over that content." The terms also say you retain "any
+  intellectual property rights that you have" in your content; they do not
+  grant or guarantee any right, exclusivity or copyright in an output.
+- Neither document warrants that an output is free of third-party material,
+  and a generated image can resemble existing works. A row here records
+  where an image came from; it does not certify that the image incorporates
+  no third-party material.
+- The Prohibited Use Policy forbids misrepresenting generated content as
+  solely human-created; the rows below record the generator for that reason.
+- The MIT licence applies to these images only to the extent rights subsist
+  in them.
+
 | Asset | Source | Author / rights holder | Licence / permission | Status |
 |---|---|---|---|---|
 | `themes/boreal-dawn/backgrounds/Boreal Dawn 1.png` | Generated with Google Gemini using a personal Google AI Pro account | NomOS project; Google states it does not claim ownership of original generated content | Repository MIT licence, to the extent copyright/IP rights subsist | **VERIFIED** |
@@ -40,6 +56,8 @@ copyright protection in every jurisdiction.
 | `themes/kiln/backgrounds/Kiln 3.png` | Generated with Google Gemini using a personal Google AI Pro account | NomOS project; Google states it does not claim ownership of original generated content | Repository MIT licence, to the extent copyright/IP rights subsist | **VERIFIED** |
 | `themes/summer-day/backgrounds/Summer Day 1.jpg` | Generated with Google Gemini using a personal Google AI Pro account | NomOS project; Google states it does not claim ownership of original generated content | Repository MIT licence, to the extent copyright/IP rights subsist | **VERIFIED** |
 | `themes/summer-night/backgrounds/Summer Night 1.jpg` | Generated with Google Gemini using a personal Google AI Pro account | NomOS project; Google states it does not claim ownership of original generated content | Repository MIT licence, to the extent copyright/IP rights subsist | **VERIFIED** |
+| `themes/summer-day/backgrounds/wallpaper-12.jpeg` | Frame 12 of the 24-frame Summer set. The NomOS issue tracking the set (#132, 3 Sep 2026) records that the set "was generated with Google Gemini Flash 3.8"; added in `bde5f6e` the same day. The file carries no embedded generation metadata; prompts and generation session are not recorded | NomOS project; Google states it does not claim ownership of original generated content | Repository MIT licence, to the extent copyright/IP rights subsist | **RECORDED, NOT INDEPENDENTLY VERIFIED**: generator taken from the project's own record only. Not shipped: NomOS pins `ccc9a128`, which predates this file. Must be VERIFIED before NomOS ships it |
+| `themes/summer-night/backgrounds/wallpaper-22.jpeg` | Frame 22 of the same 24-frame Summer set; same record (#132) and commit (`bde5f6e`). No embedded generation metadata; prompts and generation session are not recorded | NomOS project; Google states it does not claim ownership of original generated content | Repository MIT licence, to the extent copyright/IP rights subsist | **RECORDED, NOT INDEPENDENTLY VERIFIED**: as above. Not shipped (NomOS pins `ccc9a128`). Must be VERIFIED before NomOS ships it |
 
 ## Review rule
 
